@@ -1,0 +1,25 @@
+.footer {
+    position: fixed;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    background-color: #fccc0d;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    transition: bottom 0.3s ease;
+  }
+  
+  .footer.visible {
+    bottom: 0;
+  }
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
